@@ -1,0 +1,39 @@
+# JetBrains
+/.idea
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Others
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/*.index
+/storage/tinx
+/vendor
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+/public/notification-icon.png
+/public/assets
+/public/css
+/public/images
+/public/js
+/public/fonts
+/public/vue
+/public/mix-manifest.json
+/public/media
+/public/rank-report
+/public/.htaccess
+/public/sitemap.xml
+/public/sitemap-*.xml
+._*
+/supervisord.log
+/supervisord.pid
+
+dist/
