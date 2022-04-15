@@ -2,8 +2,20 @@ const name = "Maks"
 const age = 32
 const gender = "male"
 
-const sayHi = (name: string, age: number, gender: string): void => console.log(`Hi ${name} - ${age} - ${gender}`)
+interface Human {
+    name: string;
+    age: number;
+    gender: string;
+}
 
-sayHi(name, age, gender)
+const person = {
+    name,
+    age,
+    gender,
+}
+
+const sayHi = (person: Human): void => console.log(`Hi ${person.name} - ${person.age} - ${person.gender}`)
+
+sayHi(person)
 
 export {}
